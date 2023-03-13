@@ -1,0 +1,75 @@
+body {
+    color: rgb(0, 0, 0);
+}
+
+.Sidebar {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 200px;
+    height: 100%;
+    border: 2px solid black;
+    text-align: left;
+    margin: 5px;
+    padding: 4px;
+    background-color: #111;
+    color: rgb(225, 225, 225);
+}
+
+.Sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.Sidebar a img {
+    background-color: #464050;
+    width: 30px;
+    border-radius: 100%;
+    padding: 5px
+}
+.Sidebar a:hover img {
+    background-color: #464050;
+}
+
+.Sidebar a:hover {
+    color: #f1f1f1;
+}
+
+h1 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+h2 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Future-careers {
+    text-align: center;
+}
+
+table {
+    background: linear-gradient(90deg, rgba(34,9,0,1) 0%, rgba(38,30,25,1) 50%, rgba(94,39,0,1) 100%);
+}
+
+table, th, td {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+th {
+    background-color: rgb(0, 10, 9);
+    color: rgba(225, 240, 255, 0.781);
+}
+td {
+    background-color: rgb(0, 10, 9);
+    color: rgba(225, 240, 255, 0.781);
+}
