@@ -1,6 +1,6 @@
 body {
     color: rgb(253, 253, 253);
-    background-color: rgb(0,10,9);
+    background-color: rgb(0, 0, 0);
 }
 
 .Sidebar {
@@ -78,4 +78,15 @@ th {
 td {
     background-color: rgb(0, 10, 9);
     color: rgba(225, 240, 255, 0.781);
+}
+
+.Formatting {
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(34,9,0,1) 0%, rgba(38,30,25,1) 49%, rgba(46,46,46,1) 100%);
+    padding: 15px;
+    margin: 10px;
+}
+
+#Careers {
+    background: linear-gradient(-90deg, rgba(29,75,36,1) 0%, rgba(38,30,25,1) 49%, rgba(5,46,74,1) 100%);
 }
