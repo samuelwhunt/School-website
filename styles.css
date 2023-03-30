@@ -1,22 +1,6 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: consolas;
-}
-
 body {
     color: rgb(253, 253, 253);
-<<<<<<< HEAD
-    background-color: #000000;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #1d061a;
-=======
     background: linear-gradient(-90deg, rgba(29,75,36,1) 0%, rgba(38,30,25,1) 49%, rgba(5,46,74,1) 100%);
->>>>>>> 1cca7533d53850a13fbe8f1a516568175c9791fd
 }
 
 .Top-bar {
@@ -119,11 +103,7 @@ td {
 }
 
 #Sources-and-demos {
-<<<<<<< HEAD
-    background: inherit;
-=======
     background: inherit;    
->>>>>>> 1cca7533d53850a13fbe8f1a516568175c9791fd
     justify-content: center;
     align-items: center;
 }
@@ -150,17 +130,10 @@ td {
 .Source-card::before {
     content: ' ';
     position: absolute;
-<<<<<<< HEAD
-    top: 0;
-    left: 50px;
-    width: 50%;
-    height: 100%;
-=======
     top: -43px;
     left: 50px;
     width: 50%;
     height: 120%;
->>>>>>> 1cca7533d53850a13fbe8f1a516568175c9791fd
     text-decoration: none;
     background: #fff;
     border-radius: 8px;
@@ -169,63 +142,6 @@ td {
 }
 
 .Source-card::after {
-<<<<<<< HEAD
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50px;
-    width: 50%;
-    height: 100%;
-    background: #fff;
-    border-radius: 8px;
-    transform: skewX(15deg);
-    transition: 0.5s;
-    filter: blur(30px);
-}
-
-.Source-card:hover:before,
-.Source-card:hover:after 
-{
-    transform: skewX(0deg);
-    left: 20px;
-    width: calc(100% - 90px);
-}
-
-.Source-card:nth-child(1):before,
-.Source-card:nth-child(1):after
-{
-    background: linear-gradient(315deg, #ffbc00, #ff0058);
-}
-
-.Source-card:nth-child(2):before,
-.Source-card:nth-child(2):after
-{
-    background: linear-gradient(315deg, #03a9f4, #ff0058);
-}
-
-.Source-card:nth-child(3):before,
-.Source-card:nth-child(3):after
-{
-    background: linear-gradient(315deg, #4dff03, #00d0ff);
-}
-
-.Source-card span
-{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 5;
-    pointer-events: none;
-}
-
-.Source-card span::before
-{
-    content: '';
-    position: absolute;
-=======
     content: '';
     position: absolute;
     top:-43px;
@@ -281,23 +197,15 @@ td {
 {
     content: 'a';
     position: absolute;
->>>>>>> 1cca7533d53850a13fbe8f1a516568175c9791fd
     top: 0;
     left: 0;
     width: 0;
     height:0;
     border-radius: 8px;
-<<<<<<< HEAD
-    backround: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    opacity: 0;
-    transition: 0.1s
-=======
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     opacity: 0;
     transition: 0.1s;
->>>>>>> 1cca7533d53850a13fbe8f1a516568175c9791fd
     animation: animate 2s ease-in-out infintite;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -317,22 +225,14 @@ Source-card span::after
     position: absolute;
     bottom: 0;
     right: 0;
-<<<<<<< HEAD
-    width: 100%
-=======
     width: 100%;
->>>>>>> 1cca7533d53850a13fbe8f1a516568175c9791fd
     height: 100%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     opacity: 0;
     transition: 0.5s;
-<<<<<<< HEAD
-    animtation: animate 2s ease-in-out infinite;
-=======
     animation: animate 2s ease-in-out infinite;
->>>>>>> 1cca7533d53850a13fbe8f1a516568175c9791fd
     box-shadow: 0 5px, 15px, rgba(0,0,0,0.08);
     animation-delay: -1s;
 }
@@ -341,11 +241,7 @@ Source-card span::after
 {
     bottom: -50px;
     right: 50px;
-<<<<<<< HEAD
-    width: 100px
-=======
     width: 100px;
->>>>>>> 1cca7533d53850a13fbe8f1a516568175c9791fd
     height: 100px;
     opacity: 1;
 }
@@ -368,11 +264,7 @@ Source-card span::after
     position: relative;
     left: 0;
     padding: 20px 40px;
-<<<<<<< HEAD
-    background: rgba(255, 255, 255, 0.05)
-=======
     background: rgba(255, 255, 255, 0.05);
->>>>>>> 1cca7533d53850a13fbe8f1a516568175c9791fd
     backdrop-filter: blur(10px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     border-radius: 8px;
@@ -397,11 +289,7 @@ Source-card span::after
 .Source-container .Source-card .Source-content p
 {
     font-size: 1.1em;
-<<<<<<< HEAD
-    margin-bottom: 10px
-=======
     margin-bottom: 10px;
->>>>>>> 1cca7533d53850a13fbe8f1a516568175c9791fd
     line-height: 1.4em;
 }
 
