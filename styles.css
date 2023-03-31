@@ -181,6 +181,12 @@ td {
     background: linear-gradient(315deg, #4dff03, #00d0ff);
 }
 
+.Source-card:nth-child(4):before,
+.Source-card:nth-child(4):after
+{
+    background: linear-gradient(135deg, rgba(197,255,215,1) 0%, rgba(13,107,113,1) 100%);
+}
+
 .Source-card span
 {
     display: block;
